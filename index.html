@@ -1,71 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shiba Social Club</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap" rel="stylesheet">
+    <style>
+        .imagen {
+            background-image: url("imagenes/sintitulo2.png");
+            height: 600px;
+            width: 100vw;
+            background-repeat: no-repeat;
+            margin-left: auto;
+            margin-right: auto;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .letra {
+            font-family: 'Merriweather Sans', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <div class="text-white text-center bg-black">
-        <header class="bg-black py-6 w-screen fixed grid grid-content-start">
-                <div class="container mx-auto flex flex-grow">
-                    <a href="#" class="mx-20 text-xl"><span><strong>SHIBA</strong>SOCIALCLUB</span></a>
-                    <div class="flex flex-grow justify-end lg:hidden"><button><i class="fas fa-bars"></i></button></div>
-                    <div class="lg:flex hidden flex-grow justify-between">
-                        <ul class="flex flex-grow justify-between">
-                            <li><a href="#" class="hover:text-orange-500 font-bold"><span>FEATURES</span></a></li>
-                            <li><a href="#" class="hover:text-orange-500 font-bold"><span>ABOUT</span></a></li>
-                            <li><a href="#" class="hover:text-orange-500 font-bold"><span>ROADMAP</span></a></li>
-                            <li><a href="#" class="hover:text-orange-500 font-bold"><span>TEAM</span></a></li>
-                            <li><a href="#" class="hover:text-orange-500 font-bold"><span>FAQ</span></a></li>
-                            <li class="mx-0">
-                                <button class="bg-white text-black rounded-full hover:bg-orange-500 hover:text-white ml-3 p-1 px-2">
-                                    <a href="https://www.instagram.com/shibasocialclub_nft/" target="blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </button>
-                                <button class="bg-white text-black rounded-full hover:bg-orange-500 hover:text-white ml-3 p-1 px-2">
-                                    <a href="https://twitter.com/Shibaclubnft" target="blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </button>
-                                <button class="bg-white text-black rounded-full hover:bg-orange-500 hover:text-white ml-3 p-1 px-2">
-                                    <a href="https://discord.com/invite/shibasocialclub" target="blank">
-                                        <i class="fab fa-discord"></i>
-                                    </a>
-                                </button>
-                            </li>
-                            <li><button>
-                                    <a href="#" class="border border-white bg-white text-black px-20 py-3 mr-0 hover:bg-orange-500 hover:border-orange-500 hover:text-white text- font-bold">CLAIM
-                                    </a>
-                                </button>   
-                            </li>
-                        </ul>
+
+<body class="bg-black">
+    <div class="text-white text-center bg-black letra">
+        <header class="bg-black py-6 w-screen grid grid-content-start my-0 mt-0 fixed text-white text-center bg-black">
+            <div class="container mx-auto flex flex-grow">
+                <a href="#root" class="mx-20 text-xl"><span><strong>SHIBA</strong>SOCIALCLUB</span></a>
+                <div class="flex flex-grow justify-end lg:hidden"><button><i class="fas fa-bars"></i></button></div>
+                <div class="lg:flex hidden flex-grow justify-between">
+                    <ul class="flex flex-grow justify-between">
+                        <li><a href="#features"
+                                class="hover:text-orange-500 text-base font-bold"><span>FEATURES</span></a></li>
+                        <li><a href="#about" class="hover:text-orange-500 text-base font-bold"><span>ABOUT</span></a>
+                        </li>
+                        <li><a href="#roadmap"
+                                class="hover:text-orange-500 text-base font-bold"><span>ROADMAP</span></a></li>
+                        <li><a href="#team" class="hover:text-orange-500 text-base font-bold"><span>TEAM</span></a></li>
+                        <li><a href="#faq" class="hover:text-orange-500 text-base font-bold"><span>FAQ</span></a></li>
+                        <li class="mx-0">
+                            <button
+                                class="bg-white text-black rounded-full hover:bg-orange-500 hover:text-white ml-3 p-1 px-2">
+                                <a href="https://www.instagram.com/shibasocialclub_nft/" target="blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </button>
+                            <button
+                                class="bg-white text-black rounded-full hover:bg-orange-500 hover:text-white ml-3 p-1 px-2">
+                                <a href="https://twitter.com/Shibaclubnft" target="blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </button>
+                            <button
+                                class="bg-white text-black rounded-full hover:bg-orange-500 hover:text-white ml-3 p-1 px-2">
+                                <a href="https://discord.com/invite/shibasocialclub" target="blank">
+                                    <i class="fab fa-discord"></i>
+                                </a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a href="#"
+                                    class="border border-white bg-white text-black px-20 py-3 mr-0 hover:bg-orange-500 hover:border-orange-500 hover:text-white text- font-bold">CLAIM
+                                </a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section id="root" class="my-0">
+            <div class="h-4/5 self-center items-start">
+                <div class="imagen bg-center w-screen mx-auto">
+                    <div class=" flex flex-col content-between">
+                        <h1 class="text-white text-7xl font-bold text-center mt-24 mx-auto whitespace-nowrap">
+                            BABY SHIBA SOCIAL CLUB
+                        </h1>
+                        <button class="mx-auto mt-80 mb-10 self-end">
+                            <a href="#"
+                                class="border px-10 py-2 bg-orange-500 border-orange-500 text-white font-bold text-2xl drop-shadow-2xl shadow-black">BUY
+                                ON OPENSEA
+                            </a>
+                        </button>
                     </div>
                 </div>
-        </header>
-        <section></section>
+            </div>
+        </section>
         <section id="features">
             <div class="bg-black grid grid-cols-2">
-                <div class="text-left my-10 p-10 place-self-center w-25">
+                <div class="text-left my-0 p-10 place-self-center w-25 mx-20">
                     <h6 class="text-xl h-5">
                         FEATURES
                     </h6>
                     <br>
                     <h4 class="text-5xl font-extrabold text-left">
-                        WELCOME TO <br>
-                        THE BABY <br>
-                        SHIBA SOCIAL <br>
-                        CLUB <br>
+                        WELCOME TO<br>
+                        THE BABY<br>
+                        SHIBA SOCIAL<br>
+                        CLUB<br>
+                        <br>
                     </h4>
-                    <p class="text-lg">The Baby Shiba Social Club is our newest collection with 5000 Baby Shiba NFTs to sell!
+                    <p class="text-lg">The Baby Shiba Social Club is our newest collection with 5000 Baby Shiba NFTs to
+                        sell!
                         <br><br>
-                        We used our experience to bring to you even more unique characters with almost 200 trates. This will
+                        We used our experience to bring to you even more unique characters with almost 200 trates. This
+                        will
                     </p><br>
-                    <button class="text-black font-extrabold text-lg items-center bg-white py-2 px-20 m-5">
+                    <button
+                        class="text-black font-bold text-xl items-center bg-white border border-white py-2 px-20 m-5 hover:text-white hover:bg-black hover:border hover:border-white ">
                         <a href="https://discord.com/invite/shibasocialclub">JOIN US</a>
                     </button>
                 </div>
@@ -76,12 +127,12 @@
             </div>
         </section>
         <section id="about">
-            <div class="grid grid-cols-2 gap-2 grow container">
+            <div class="grid grid-cols-2 gap-2 grow container mx-auto">
                 <div class="grid grid-cols-2 row my-12 p-12 gap-5">
                     <img src="imagenes/baby_about1.eb676474.jpg" alt="Shiba Watches" class="w-full h-auto">
                     <img src="imagenes/baby_about2.bb2d1091.jpg" alt="Shiba Watches" class="w-full h-auto">
                     <img src="imagenes/baby_about3.9f4ff187.jpg" alt="Shiba Watches" class="w-full h-auto">
-                    <img src="imagenes/baby_about4.740bc95f.jpg" alt="Shiba Watches" class="w-full h-auto"> 
+                    <img src="imagenes/baby_about4.740bc95f.jpg" alt="Shiba Watches" class="w-full h-auto">
                 </div>
                 <div class="text-left my-20 p-20 place-self-center w-25">
                     <h6 class="pt-30 h-5 text-xl">
@@ -90,18 +141,20 @@
                     <br>
                     <h2 class="mt-0 mb-0 mx-auto text-5xl font-extrabold">
                         ANOTHER<br>
-                         REASON TO<br>
-                          JOIN THE<br>
-                           CLUB!
+                        REASON TO<br>
+                        JOIN THE<br>
+                        CLUB!
                     </h2>
                     <br>
                     <p class="pb-30 text-lg">
-                        If you missed your chance to gain membership whit Shiba, now you have another chance to do so with a Baby Shiba!
+                        If you missed your chance to gain membership whit Shiba, now you have another chance to do so
+                        with a Baby Shiba!
                         <br><br>
-                        Same as whit Shiba, your Baby Shiba will give you the identical benefits; serve as your digital identity, and open digital doors to you.
+                        Same as whit Shiba, your Baby Shiba will give you the identical benefits; serve as your digital
+                        identity, and open digital doors to you.
                     </p>
                 </div>
-              
+
             </div>
         </section>
         <section></section>
@@ -157,7 +210,108 @@
                 </div>
             </div>
         </section>
-        <footer class="bg-neutral-800 p-20">
+        <section id="faq" class="bg-neutral-800 p-20 m-20 text-left">
+            <div>
+                <h2 class=" text-4xl font-bold">
+                    Frequently Asked Questions
+                </h2>
+            </div>
+            <div class="w-full  mx-auto mt.4 mt-10">
+                <div class="overflow-hidden border-b">
+                    <label>
+                        <input class="absolute opacity-0 peer" type="checkbox">
+                        <p class="cursor-pointer p-5 inline-block w-11/12 text-xl font-bold">WHAT IS A NFT</p>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 cursor-pointer inline-block float-right mt-5 mr-2 border-2 border-neutral-800 rounded-full peer-checked:rotate-45 chequed:text-orange-500 peer-checked:bg-indigo-300"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+                        <div class="bg-neutral-800 max-h-0 peer-checked:max-h-screen">
+                            <p class="p-5 text-stone-400 text-base">NFT stands for 'non-fungible token. An NFT is
+                                basically data that is accounted for in a digital ledger, and that data represents
+                                something specific and unique. An NFT can, for example, represent a unique piece of art
+                                or a game token.</p>
+                        </div>
+                </div>
+                </label>
+            </div>
+            <div class="w-full  mx-auto mt.4 my-5">
+                <div class="overflow-hidden border-b">
+                    <label>
+                        <input class="absolute opacity-0 peer" type="checkbox">
+                        <p class="cursor-pointer p-5 inline-block w-11/12 text-xl font-bold">HOW CAN I BUY A BABY SHIBA
+                            NFT</p>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 cursor-pointer inline-block float-right mt-5 mr-2 border-2 border-neutral-800 rounded-full peer-checked:rotate-45 chequed:text-orange-500 peer-checked:bg-indigo-300"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+                        <div class="bg-neutral-800 max-h-0 peer-checked:max-h-screen">
+                            <p class="p-5 text-stone-400 text-base">You will be able to buy on our website when we
+                                launch. Join our discord to have more information about our launch date.</p>
+                        </div>
+                </div>
+                </label>
+            </div>
+            <div class="w-full  mx-auto mt.4 my-5">
+                <div class="overflow-hidden border-b">
+                    <label>
+                        <input class="absolute opacity-0 peer" type="checkbox">
+                        <p class="cursor-pointer p-5 inline-block w-11/12 text-xl font-bold">WHAT DOES "MINT" MEANS?</p>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 cursor-pointer inline-block float-right mt-5 mr-2 border-2 border-neutral-800 rounded-full peer-checked:rotate-45 chequed:text-orange-500 peer-checked:bg-indigo-300"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+                        <div class="bg-neutral-800 max-h-0 peer-checked:max-h-screen">
+                            <p class="p-5 text-stone-400 text-base">NFT Minting is the process by which your digital art
+                                or digital content becomes a part of the Ethereum blockchain.</p>
+                        </div>
+                </div>
+                </label>
+            </div>
+            <div class="w-full  mx-auto mt.4 my-5">
+                <div class="overflow-hidden border-b">
+                    <label>
+                        <input class="absolute opacity-0 peer" type="checkbox">
+                        <p class="cursor-pointer p-5 inline-block w-11/12 text-xl font-bold">HOW MUCH DOES IT COST TO
+                            BUY ONE OR
+                            YOUR BABY SHIBA NFT</p>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 cursor-pointer inline-block float-right mt-5 mr-2 border-2 border-neutral-800 rounded-full peer-checked:rotate-45 chequed:text-orange-500 peer-checked:bg-indigo-300"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+                        <div class="bg-neutral-800 max-h-0 peer-checked:max-h-screen">
+                            <p class="p-5 text-stone-400 text-base">The Price of Minting and Sale will be announced
+                                soon.</p>
+                        </div>
+                </div>
+                </label>
+            </div>
+            <div class="w-full  mx-auto mt.4 my-5">
+                <div class="overflow-hidden border-b">
+                    <label>
+                        <input class="absolute opacity-0 peer" type="checkbox">
+                        <p class="cursor-pointer p-5 inline-block w-11/12 text-xl font-bold">WHY DID YOU CHOOSE BABY
+                            SHIBA?</p>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 cursor-pointer inline-block float-right mt-5 mr-2 border-2 border-neutral-800 rounded-full peer-checked:rotate-45 chequed:text-orange-500 peer-checked:bg-indigo-300"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+                        <div class="bg-neutral-800 max-h-0 peer-checked:max-h-screen">
+                            <p class="p-5 text-stone-400 text-base">We are all investors and crypto enthusiasts at
+                                heart. Shibaz have been used for over decades to symbolize the aggressive financial
+                                optimism and prosperity of the markets. We can’t think of a better avatar to use going
+                                into the Metaverse. So we gave the Baby Shiba a 3.0 upgrade and made them future-proof.
+                            </p>
+                        </div>
+                </div>
+                </label>
+            </div>
+        </section>
+        <footer class="bg-neutral-800 p-20 mt-20">
             <div class="grid grid-cols-2 container content-center gap-1">
                 <div class="text-left place-self-center">
                     <h6 class="text-lg font-bold">
@@ -181,10 +335,11 @@
                     </button>
                     <br><br><br>
                     <button>
-                        <a href="#" class="border border-white bg-white text-black px-5 py-2 hover:bg-orange-500 hover:text-white hover:border-orange-500 text-lg font-bold">
+                        <a href="#"
+                            class="border border-white bg-white text-black px-5 py-2 hover:bg-orange-500 hover:text-white hover:border-orange-500 text-lg font-bold">
                             JOIN OUR DISCORD
                         </a>
-                    </button> 
+                    </button>
                 </div>
                 <div class="p-20 pl-5">
                     <a href="#" class="mx-20 text-lg text-left"><span><strong>SHIBA</strong>SOCIALCLUB</span></a>
@@ -197,4 +352,5 @@
         </footer>
     </div>
 </body>
+
 </html>
